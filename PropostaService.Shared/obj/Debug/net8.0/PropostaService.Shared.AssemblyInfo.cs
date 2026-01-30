@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PropostaService.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddfc22f7d678e163c08f917e14c95f35fdfab483")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58f0b7bd07bcd92c636fcbb822cc2b0338be9102")]
 [assembly: System.Reflection.AssemblyProductAttribute("PropostaService.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PropostaService.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

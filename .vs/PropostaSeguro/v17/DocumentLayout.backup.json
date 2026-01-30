@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A57BE782-504E-4F6E-8C66-E81746DF8ACD}|PropostaService.Tests\\PropostaService.Tests.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\propostaservice.tests\\propostaserviceapptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BE782-504E-4F6E-8C66-E81746DF8ACD}|PropostaService.Tests\\PropostaService.Tests.csproj|solutionrelative:propostaservice.tests\\propostaserviceapptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CA1E401A-7755-461D-8FE4-1BA9D4B09F8D}|PropostaService.Application\\PropostaService.Application.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\propostaservice.application\\services\\propostaserviceapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA1E401A-7755-461D-8FE4-1BA9D4B09F8D}|PropostaService.Application\\PropostaService.Application.csproj|solutionrelative:propostaservice.application\\services\\propostaserviceapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BE782-504E-4F6E-8C66-E81746DF8ACD}|PropostaService.Tests\\PropostaService.Tests.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\propostaservice.tests\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BE782-504E-4F6E-8C66-E81746DF8ACD}|PropostaService.Tests\\PropostaService.Tests.csproj|solutionrelative:propostaservice.tests\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{371D1193-AEC0-4980-A444-2CC6B867E697}|PropostaService.Api\\PropostaService.Api.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\propostaservice.api\\controllers\\propostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 265,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PropostasController.cs",
               "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Api\\Controllers\\PropostasController.cs",
               "RelativeDocumentMoniker": "PropostaService.Api\\Controllers\\PropostasController.cs",
@@ -39,15 +47,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PropostaServiceApp.cs",
               "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Application\\Services\\PropostaServiceApp.cs",
               "RelativeDocumentMoniker": "PropostaService.Application\\Services\\PropostaServiceApp.cs",
               "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Application\\Services\\PropostaServiceApp.cs",
               "RelativeToolTip": "PropostaService.Application\\Services\\PropostaServiceApp.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAUwF8AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-30T17:44:50.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropostaServiceAppTests.cs",
+              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Tests\\PropostaServiceAppTests.cs",
+              "RelativeDocumentMoniker": "PropostaService.Tests\\PropostaServiceAppTests.cs",
+              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Tests\\PropostaServiceAppTests.cs",
+              "RelativeToolTip": "PropostaService.Tests\\PropostaServiceAppTests.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAqwDYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T18:06:05.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITransaction.cs",
+              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Tests\\ITransaction.cs",
+              "RelativeDocumentMoniker": "PropostaService.Tests\\ITransaction.cs",
+              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Tests\\ITransaction.cs",
+              "RelativeToolTip": "PropostaService.Tests\\ITransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T18:14:03.271Z",
               "EditorCaption": ""
             }
           ]
