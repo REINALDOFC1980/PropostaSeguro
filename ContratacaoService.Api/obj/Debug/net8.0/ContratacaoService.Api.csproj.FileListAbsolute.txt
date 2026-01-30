@@ -18,6 +18,7 @@ E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Api\obj\Debug\net8.0\Cont
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Api\obj\Debug\net8.0\ContratacaoService.Api.csproj.CoreCompileInputs.cache
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Api\obj\Debug\net8.0\ContratacaoService.Api.MvcApplicationPartsAssemblyInfo.cs
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Api\obj\Debug\net8.0\ContratacaoService.Api.MvcApplicationPartsAssemblyInfo.cache
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Api\obj\Debug\net8.0\ContratacaoService.Api.sourcelink.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

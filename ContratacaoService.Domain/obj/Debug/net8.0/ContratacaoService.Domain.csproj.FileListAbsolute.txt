@@ -5,6 +5,7 @@ E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Domain\obj\Debug\net8.0\C
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Domain\obj\Debug\net8.0\ContratacaoService.Domain.AssemblyInfoInputs.cache
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Domain\obj\Debug\net8.0\ContratacaoService.Domain.AssemblyInfo.cs
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Domain\obj\Debug\net8.0\ContratacaoService.Domain.csproj.CoreCompileInputs.cache
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Domain\obj\Debug\net8.0\ContratacaoService.Domain.sourcelink.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Domain\obj\Debug\net8.0\ContratacaoService.Domain.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Domain\obj\Debug\net8.0\refint\ContratacaoService.Domain.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Domain\obj\Debug\net8.0\ContratacaoService.Domain.pdb

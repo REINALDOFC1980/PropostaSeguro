@@ -1,8 +1,3 @@
-E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.csproj.AssemblyReference.cache
-E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.AssemblyInfoInputs.cache
-E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.AssemblyInfo.cs
-E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.csproj.CoreCompileInputs.cache
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\bin\Debug\net8.0\PropostaService.Infrastructure.deps.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\bin\Debug\net8.0\PropostaService.Infrastructure.runtimeconfig.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\bin\Debug\net8.0\PropostaService.Infrastructure.dll
@@ -13,6 +8,12 @@ E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\bin\Debug\net
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\bin\Debug\net8.0\PropostaService.Application.pdb
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\bin\Debug\net8.0\PropostaService.Domain.pdb
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\bin\Debug\net8.0\PropostaService.Shared.pdb
+E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.csproj.AssemblyReference.cache
+E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.AssemblyInfoInputs.cache
+E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.AssemblyInfo.cs
+E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.csproj.CoreCompileInputs.cache
+E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.sourcelink.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\Proposta.17E83936.Up2Date
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\PropostaService.Infrastructure.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Infrastructure\obj\Debug\net8.0\refint\PropostaService.Infrastructure.dll

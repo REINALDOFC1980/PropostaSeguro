@@ -5,6 +5,7 @@ E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Domain\obj\Debug\net8.0\Prop
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Domain\obj\Debug\net8.0\PropostaService.Domain.AssemblyInfoInputs.cache
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Domain\obj\Debug\net8.0\PropostaService.Domain.AssemblyInfo.cs
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Domain\obj\Debug\net8.0\PropostaService.Domain.csproj.CoreCompileInputs.cache
+E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Domain\obj\Debug\net8.0\PropostaService.Domain.sourcelink.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Domain\obj\Debug\net8.0\PropostaService.Domain.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Domain\obj\Debug\net8.0\refint\PropostaService.Domain.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Domain\obj\Debug\net8.0\PropostaService.Domain.pdb

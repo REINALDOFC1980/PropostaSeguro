@@ -6,6 +6,7 @@ E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Shared\obj\Debug\net8.0\Prop
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Shared\obj\Debug\net8.0\PropostaService.Shared.AssemblyInfoInputs.cache
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Shared\obj\Debug\net8.0\PropostaService.Shared.AssemblyInfo.cs
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Shared\obj\Debug\net8.0\PropostaService.Shared.csproj.CoreCompileInputs.cache
+E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Shared\obj\Debug\net8.0\PropostaService.Shared.sourcelink.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Shared\obj\Debug\net8.0\PropostaService.Shared.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Shared\obj\Debug\net8.0\refint\PropostaService.Shared.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Shared\obj\Debug\net8.0\PropostaService.Shared.pdb

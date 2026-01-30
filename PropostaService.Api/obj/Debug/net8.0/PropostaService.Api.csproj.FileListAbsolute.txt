@@ -59,6 +59,7 @@ E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\bin\Debug\net8.0\Mono.Te
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\bin\Debug\net8.0\Nucleus.Core.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\bin\Debug\net8.0\Nucleus.FluentValidation.dll
+E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\bin\Debug\net8.0\Serilog.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
@@ -185,6 +186,7 @@ E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\Propost
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\PropostaService.Api.csproj.CoreCompileInputs.cache
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\PropostaService.Api.MvcApplicationPartsAssemblyInfo.cs
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\PropostaService.Api.MvcApplicationPartsAssemblyInfo.cache
+E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\PropostaService.Api.sourcelink.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -200,5 +202,3 @@ E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\Propost
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\PropostaService.Api.pdb
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\PropostaService.Api.genruntimeconfig.cache
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\ref\PropostaService.Api.dll
-E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\bin\Debug\net8.0\RabbitMQ.Client.dll

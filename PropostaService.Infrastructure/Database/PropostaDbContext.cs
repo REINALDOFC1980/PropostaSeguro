@@ -9,10 +9,14 @@ namespace PropostaService.Infrastructure.Database
 
         public DbSet<PropostaModel> Propostas => Set<PropostaModel>();
 
+        public DbSet<IdempotencyKey> IdempotencyKeys { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
+            // PropostaModel
             modelBuilder.Entity<PropostaModel>(entity =>
             {
                 entity.HasKey(p => p.Id);
@@ -37,6 +41,26 @@ namespace PropostaService.Infrastructure.Database
                 entity.Property(p => p.CriadoEm)
                       .HasDefaultValueSql("GETUTCDATE()");
             });
+
+            // IdempotencyKey
+            modelBuilder.Entity<IdempotencyKey>(entity =>
+            {
+                entity.HasKey(i => i.Id);
+
+                entity.HasIndex(i => i.Key)
+                      .IsUnique();
+
+                entity.Property(i => i.Key)
+                      .IsRequired()
+                      .HasMaxLength(150);
+
+                entity.Property(i => i.PropostaId)
+                      .IsRequired();
+
+                entity.Property(i => i.CreatedAt)
+                      .HasDefaultValueSql("GETUTCDATE()");
+            });
         }
+
     }
 }

@@ -6,6 +6,7 @@ using PropostaService.Application.Interfaces;
 using PropostaService.Application.Services;
 using PropostaService.Infrastructure.Database;
 using PropostaService.Infrastructure.Repositories;
+using PropostaService.Shared.Middlewares;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,7 +20,7 @@ builder.Host.UseSerilog((ctx, lc) => lc
 );
 
 // Permite que o container aceite requisições externas
-//builder.WebHost.UseUrls("http://0.0.0.0:80");
+builder.WebHost.UseUrls("http://0.0.0.0:80");
 
 // Serializa enums como string
 builder.Services.AddControllers()
@@ -40,6 +41,9 @@ builder.Services.AddScoped<IPropostaRepository, PropostaRepository>();
 builder.Services.AddScoped<PropostaServiceApp>();
 
 builder.Services.AddScoped<IRabbitMQService, RabbitMQService>();
+
+builder.Services.AddScoped<IIdempotencyRepository, IdempotencyRepository>();
+
 
 
 // Configuração do FluentValidation
@@ -70,6 +74,9 @@ app.UseMiddleware<RequestLoggingMiddleware>();
 
 // Middleware global de exceção
 app.UseMiddleware<ExceptionHandlingMiddleware>();
+
+app.UseMiddleware<IdempotencyMiddleware>();
+
 
 app.UseAuthorization();
 app.MapControllers();

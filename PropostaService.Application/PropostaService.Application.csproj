@@ -16,4 +16,11 @@
     <ProjectReference Include="..\PropostaService.Shared\PropostaService.Shared.csproj" />
   </ItemGroup>
 
+
+	<ItemGroup>
+	  <Reference Include="Microsoft.EntityFrameworkCore">
+	    <HintPath>..\..\..\NugetCache\microsoft.entityframeworkcore\8.0.23\lib\net8.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
 </Project>

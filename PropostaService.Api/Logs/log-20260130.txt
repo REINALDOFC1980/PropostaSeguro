@@ -413,3 +413,29 @@ VALUES (@p0, @p1, @p2, @p3);
 2026-01-30 06:13:58.118 -03:00 [INF] Executed endpoint 'PropostaService.Api.Controllers.PropostasController.Criar (PropostaService.Api)'
 2026-01-30 06:13:58.124 -03:00 [INF] Response: 201 processed in 17473 ms
 2026-01-30 06:13:58.138 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7116/api/Propostas - 201 null application/json; charset=utf-8 17519.1195ms
+2026-01-30 07:25:23.793 -03:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 07:25:23.906 -03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 07:25:23.918 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 07:25:23.925 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 07:25:23.960 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 07:25:23.986 -03:00 [INF] Applying migration '20260130102255_AddIdempotencyKeys'.
+2026-01-30 07:25:24.042 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [IdempotencyKeys] (
+    [Id] uniqueidentifier NOT NULL,
+    [Key] nvarchar(150) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL DEFAULT (GETUTCDATE()),
+    [PropostaId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_IdempotencyKeys] PRIMARY KEY ([Id])
+);
+2026-01-30 07:25:24.051 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_IdempotencyKeys_Key] ON [IdempotencyKeys] ([Key]);
+2026-01-30 07:25:24.059 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260130102255_AddIdempotencyKeys', N'8.0.23');

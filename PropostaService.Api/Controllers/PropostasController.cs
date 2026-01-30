@@ -19,7 +19,8 @@ namespace PropostaService.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Criar([FromBody] CriarPropostaRequest request)
         {
-            var proposta = await _service.CriarPropostaAsync(request.NomeCliente, request.TipoSeguro, request.Valor);
+            var idempotencyKey = Request.Headers["Idempotency-Key"].FirstOrDefault();
+            var proposta = await _service.CriarPropostaAsync(request.NomeCliente, request.TipoSeguro, request.Valor, idempotencyKey);
             return CreatedAtAction(nameof(ObterPorId), new { id = proposta.Id }, proposta);
         }
 

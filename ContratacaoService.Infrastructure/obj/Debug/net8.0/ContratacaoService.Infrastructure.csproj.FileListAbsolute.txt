@@ -5,6 +5,7 @@ E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Infrastructure\obj\Debug\
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Infrastructure\obj\Debug\net8.0\ContratacaoService.Infrastructure.AssemblyInfoInputs.cache
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Infrastructure\obj\Debug\net8.0\ContratacaoService.Infrastructure.AssemblyInfo.cs
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Infrastructure\obj\Debug\net8.0\ContratacaoService.Infrastructure.csproj.CoreCompileInputs.cache
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Infrastructure\obj\Debug\net8.0\ContratacaoService.Infrastructure.sourcelink.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Infrastructure\obj\Debug\net8.0\ContratacaoService.Infrastructure.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Infrastructure\obj\Debug\net8.0\refint\ContratacaoService.Infrastructure.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Infrastructure\obj\Debug\net8.0\ContratacaoService.Infrastructure.pdb
