@@ -1,15 +1,32 @@
+using ContratacaoService.Application.Interfaces;
+using ContratacaoService.Application.Services;
+using ContratacaoService.Infrastructure.Database;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
+
+
+// Controllers
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddScoped<IContratacaoService, ContratacaoServiceApp>();
+
+
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// DbContext (banco do microserviço Contratação)
+builder.Services.AddDbContext<ContratacaoDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+await DbInitializer.InitializeAsync(app.Services);
+
+// Swagger
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

@@ -195,6 +195,7 @@ E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\staticw
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\staticwebassets.build.json.cache
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\staticwebassets.development.json
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\Proposta.CBC889D1.Up2Date
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\PropostaService.Api.dll
 E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api\obj\Debug\net8.0\refint\PropostaService.Api.dll

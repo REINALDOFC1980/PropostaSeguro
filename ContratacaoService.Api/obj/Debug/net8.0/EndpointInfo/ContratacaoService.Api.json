@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ContratacaoService.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/contratacoes": {
+      "get": {
+        "tags": [
+          "Contratacoes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

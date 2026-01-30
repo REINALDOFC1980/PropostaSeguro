@@ -439,3 +439,20 @@ CREATE UNIQUE INDEX [IX_IdempotencyKeys_Key] ON [IdempotencyKeys] ([Key]);
 2026-01-30 07:25:24.059 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
 INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
 VALUES (N'20260130102255_AddIdempotencyKeys', N'8.0.23');
+2026-01-30 10:27:18.465 -03:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 10:27:18.586 -03:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 10:27:18.596 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 10:27:18.603 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 10:27:18.680 -03:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 10:27:18.704 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 10:27:19.441 -03:00 [INF] Now listening on: http://0.0.0.0:80
+2026-01-30 10:27:20.311 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-30 10:27:20.313 -03:00 [INF] Hosting environment: Development
+2026-01-30 10:27:20.315 -03:00 [INF] Content root path: E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api

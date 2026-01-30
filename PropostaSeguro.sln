@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContratacaoService.Infrastr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropostaService.Shared", "PropostaService.Shared\PropostaService.Shared.csproj", "{DDE13927-F39B-44B1-99E6-FAC581E55466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContratacaoService.Worker", "ContratacaoService.Worker\ContratacaoService.Worker.csproj", "{2908F943-990D-41B9-9C14-98269C823737}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{DDE13927-F39B-44B1-99E6-FAC581E55466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE13927-F39B-44B1-99E6-FAC581E55466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE13927-F39B-44B1-99E6-FAC581E55466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2908F943-990D-41B9-9C14-98269C823737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2908F943-990D-41B9-9C14-98269C823737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2908F943-990D-41B9-9C14-98269C823737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2908F943-990D-41B9-9C14-98269C823737}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{7E7328D3-CA22-4F90-95F9-E7BBA6C18FE0} = {E5C2852C-D6FE-4D90-897D-8F48A41310A4}
 		{B318F924-8BF2-4475-9422-41E095F63BCB} = {E5C2852C-D6FE-4D90-897D-8F48A41310A4}
 		{DDE13927-F39B-44B1-99E6-FAC581E55466} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2908F943-990D-41B9-9C14-98269C823737} = {E5C2852C-D6FE-4D90-897D-8F48A41310A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BDB20462-8A4E-4BEE-B228-5C1448182AED}

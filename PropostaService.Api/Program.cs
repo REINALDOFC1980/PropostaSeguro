@@ -55,6 +55,9 @@ builder.Services.AddControllers()
 
 var app = builder.Build();
 
+await DbInitializer.InitializeAsync(app.Services);
+
+
 //Aplica migrations automaticamente
 using (var scope = app.Services.CreateScope())
 {

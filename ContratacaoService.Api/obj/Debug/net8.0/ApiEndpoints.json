@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "ContratacoesController",
+    "Method": "Get",
+    "RelativePath": "api/contratacoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
