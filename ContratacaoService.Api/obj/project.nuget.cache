@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "0+iiRAMJT34=",
+  "success": true,
+  "projectFilePath": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Api\\ContratacaoService.Api.csproj",
+  "expectedPackageFiles": [
+    "E:\\NugetCache\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "E:\\NugetCache\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "E:\\NugetCache\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "E:\\NugetCache\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "E:\\NugetCache\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "E:\\NugetCache\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<UserSecretsId>985143b8-382f-42bb-b862-91f35775c7d6</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- EF Core base -->
+		<PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.23" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.23">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<!-- Provedor SQL Server -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.23" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.2" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
+
+
+		<!-- Swagger / OpenAPI -->
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\PropostaService.Application\PropostaService.Application.csproj" />
+	  <ProjectReference Include="..\PropostaService.Domain\PropostaService.Domain.csproj" />
+	  <ProjectReference Include="..\PropostaService.Infrastructure\PropostaService.Infrastructure.csproj" />
+	  <ProjectReference Include="..\PropostaService.Shared\PropostaService.Shared.csproj" />
+	</ItemGroup>
+
+</Project>

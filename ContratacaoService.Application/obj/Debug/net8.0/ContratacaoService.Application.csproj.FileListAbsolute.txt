@@ -1,0 +1,11 @@
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Application\bin\Debug\net8.0\ContratacaoService.Application.deps.json
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Application\bin\Debug\net8.0\ContratacaoService.Application.dll
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Application\bin\Debug\net8.0\ContratacaoService.Application.pdb
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Application\obj\Debug\net8.0\ContratacaoService.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Application\obj\Debug\net8.0\ContratacaoService.Application.AssemblyInfoInputs.cache
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Application\obj\Debug\net8.0\ContratacaoService.Application.AssemblyInfo.cs
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Application\obj\Debug\net8.0\ContratacaoService.Application.csproj.CoreCompileInputs.cache
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Application\obj\Debug\net8.0\ContratacaoService.Application.dll
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Application\obj\Debug\net8.0\refint\ContratacaoService.Application.dll
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Application\obj\Debug\net8.0\ContratacaoService.Application.pdb
+E:\REINALDO.DEV (C#)\PropostaSeguro\ContratacaoService.Application\obj\Debug\net8.0\ref\ContratacaoService.Application.dll

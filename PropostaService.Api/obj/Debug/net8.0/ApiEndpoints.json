@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "PropostaService.Api.Controllers.PropostasController",
+    "Method": "Criar",
+    "RelativePath": "api/Propostas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PropostaService.Api.DTO.CriarPropostaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropostaService.Api.Controllers.PropostasController",
+    "Method": "Listar",
+    "RelativePath": "api/Propostas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropostaService.Api.Controllers.PropostasController",
+    "Method": "ObterPorId",
+    "RelativePath": "api/Propostas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,72 @@
+version: "3.9"
+
+services:
+
+  # =========================
+  # SQL Server
+  # =========================
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "Proposta123!"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    networks:
+      - seguros-network
+
+  # =========================
+  # RabbitMQ
+  # =========================
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"   # servi�o
+      - "15672:15672" # dashboard web
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    networks:
+      - seguros-network
+
+  # =========================
+  # PropostaService
+  # =========================
+  propostaservice:
+    build:
+      context: ./PropostaService.Api/..       # pasta raiz do PropostaService
+      dockerfile: ./PropostaService.Api/Dockerfile
+    container_name: propostaservice
+    environment:
+      # SQL Server
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=PropostasDb;User Id=sa;Password=Proposta123!;TrustServerCertificate=True;"
+      ASPNETCORE_ENVIRONMENT: "Development"
+
+      # RabbitMQ
+      RabbitMQ__HostName: "rabbitmq"
+      RabbitMQ__UserName: "guest"
+      RabbitMQ__Password: "guest"
+      RabbitMQ__Port: "5672"
+      RabbitMQ__QueueName: "propostas_queue"
+
+    depends_on:
+      - sqlserver
+      - rabbitmq
+    ports:
+      - "5000:80"
+    networks:
+      - seguros-network
+
+# =========================
+# Volumes e rede
+# =========================
+volumes:
+  sqlserver-data:
+
+networks:
+  seguros-network:
+    driver: bridge
