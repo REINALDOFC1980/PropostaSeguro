@@ -39,7 +39,19 @@ namespace PropostaService.Api.Controllers
             return Ok(proposta);
         }
 
-       
+        /// <summary>
+        /// Altera o status de uma proposta
+        /// </summary>
+        [HttpPatch("{id:guid}/status")]
+        public async Task<IActionResult> AlterarStatus(Guid id, [FromBody] AlterarStatusRequest request)
+        {
+            var proposta = await _service.AlterarStatusAsync(id, request.Status);
+            if (proposta == null) return NotFound(new { message = "Proposta não encontrada" });
+
+            return Ok(proposta);
+        }
+
+
     }
 
    

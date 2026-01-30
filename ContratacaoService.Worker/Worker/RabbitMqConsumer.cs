@@ -34,7 +34,6 @@ namespace ContratacaoService.Worker
                 autoDelete: false,
                 arguments: null);
 
-            // ⚡ Aqui usamos AsyncEventingBasicConsumer
             var consumer = new AsyncEventingBasicConsumer(_channel);
 
             consumer.Received += async (model, ea) =>
@@ -58,7 +57,7 @@ namespace ContratacaoService.Worker
                 }
             };
 
-            // ⚡ Passa o consumer async para BasicConsume
+          
             _channel.BasicConsume(queue: queueName, autoAck: false, consumer: consumer);
 
             await Task.Delay(Timeout.Infinite, stoppingToken);

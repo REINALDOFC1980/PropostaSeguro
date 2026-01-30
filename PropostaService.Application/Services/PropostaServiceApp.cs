@@ -65,22 +65,7 @@ namespace PropostaService.Application.Services
                         PropostaId = propostaCriada.Id
                     });
                 }
-
-                // Envia para RabbitMQ
-                var evento = new PropostaEnviadaEvent
-                {
-                    Id = propostaCriada.Id,
-                    NomeCliente = propostaCriada.NomeCliente,
-                    TipoSeguro = propostaCriada.TipoSeguro,
-                    Valor = propostaCriada.Valor,
-                    Status = propostaCriada.Status.ToString(),
-                    CriadoEm = propostaCriada.CriadoEm
-                };
-
-                _rabbitMQService.EnviarProposta(evento);
-                _logger.LogInformation("Proposta enviada para RabbitMQ com Id {Id}", propostaCriada.Id);
-
-                // Confirma transação
+                 // Confirma transação
                 await transaction.CommitAsync();
 
                 return propostaCriada;
@@ -103,8 +88,27 @@ namespace PropostaService.Application.Services
             var proposta = await _repository.ObterPorIdAsync(id);
             if (proposta == null) return null;
 
+
             proposta.Status = status;
             await _repository.AtualizarAsync(proposta);
+
+
+            if (status == StatusProposta.Aprovada)
+            {
+                var evento = new PropostaEnviadaEvent
+                {
+                    Id = proposta.Id,
+                    NomeCliente = proposta.NomeCliente,
+                    TipoSeguro = proposta.TipoSeguro,
+                    Valor = proposta.Valor,
+                    Status = status.ToString(),
+                    CriadoEm = proposta.CriadoEm
+                };
+
+                _rabbitMQService.EnviarProposta(evento);
+                _logger.LogInformation("Proposta enviada para RabbitMQ com Id {Id}", proposta.Id);
+            }
+
 
             _logger.LogInformation("Status alterado para a proposta com Id {Id}", proposta.Id);
             return proposta;

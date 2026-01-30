@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2908F943-990D-41B9-9C14-98269C823737}|ContratacaoService.Worker\\ContratacaoService.Worker.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\contratacaoservice.worker\\worker\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2908F943-990D-41B9-9C14-98269C823737}|ContratacaoService.Worker\\ContratacaoService.Worker.csproj|solutionrelative:contratacaoservice.worker\\worker\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA1E401A-7755-461D-8FE4-1BA9D4B09F8D}|PropostaService.Application\\PropostaService.Application.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\propostaservice.application\\services\\propostaserviceapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1E401A-7755-461D-8FE4-1BA9D4B09F8D}|PropostaService.Application\\PropostaService.Application.csproj|solutionrelative:propostaservice.application\\services\\propostaserviceapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2908F943-990D-41B9-9C14-98269C823737}|ContratacaoService.Worker\\ContratacaoService.Worker.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\contratacaoservice.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2908F943-990D-41B9-9C14-98269C823737}|ContratacaoService.Worker\\ContratacaoService.Worker.csproj|solutionrelative:contratacaoservice.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23589F9B-BF0E-4FFE-AF76-E3B7D474DB09}|ContratacaoService.Api\\ContratacaoService.Api.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\contratacaoservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23589F9B-BF0E-4FFE-AF76-E3B7D474DB09}|ContratacaoService.Api\\ContratacaoService.Api.csproj|solutionrelative:contratacaoservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{371D1193-AEC0-4980-A444-2CC6B867E697}|PropostaService.Api\\PropostaService.Api.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\propostaservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{371D1193-AEC0-4980-A444-2CC6B867E697}|PropostaService.Api\\PropostaService.Api.csproj|solutionrelative:propostaservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B318F924-8BF2-4475-9422-41E095F63BCB}|ContratacaoService.Infrastructure\\ContratacaoService.Infrastructure.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\contratacaoservice.infrastructure\\database\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B318F924-8BF2-4475-9422-41E095F63BCB}|ContratacaoService.Infrastructure\\ContratacaoService.Infrastructure.csproj|solutionrelative:contratacaoservice.infrastructure\\database\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2908F943-990D-41B9-9C14-98269C823737}|ContratacaoService.Worker\\ContratacaoService.Worker.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\contratacaoservice.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2908F943-990D-41B9-9C14-98269C823737}|ContratacaoService.Worker\\ContratacaoService.Worker.csproj|solutionrelative:contratacaoservice.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CA35CC6-6349-4D63-864A-48ED0C335F42}|PropostaService.Infrastructure\\PropostaService.Infrastructure.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\propostaservice.infrastructure\\database\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CA35CC6-6349-4D63-864A-48ED0C335F42}|PropostaService.Infrastructure\\PropostaService.Infrastructure.csproj|solutionrelative:propostaservice.infrastructure\\database\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2908F943-990D-41B9-9C14-98269C823737}|ContratacaoService.Worker\\ContratacaoService.Worker.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\contratacaoservice.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2908F943-990D-41B9-9C14-98269C823737}|ContratacaoService.Worker\\ContratacaoService.Worker.csproj|solutionrelative:contratacaoservice.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2908F943-990D-41B9-9C14-98269C823737}|ContratacaoService.Worker\\ContratacaoService.Worker.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\contratacaoservice.worker\\contratacaoservice.worker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2908F943-990D-41B9-9C14-98269C823737}|ContratacaoService.Worker\\ContratacaoService.Worker.csproj|solutionrelative:contratacaoservice.worker\\contratacaoservice.worker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{371D1193-AEC0-4980-A444-2CC6B867E697}|PropostaService.Api\\PropostaService.Api.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\propostaservice.api\\controllers\\propostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371D1193-AEC0-4980-A444-2CC6B867E697}|PropostaService.Api\\PropostaService.Api.csproj|solutionrelative:propostaservice.api\\controllers\\propostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,8 +17,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 189,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 265,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,119 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Infrastructure\\Database\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "ContratacaoService.Infrastructure\\Database\\DbInitializer.cs",
-              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Infrastructure\\Database\\DbInitializer.cs",
-              "RelativeToolTip": "ContratacaoService.Infrastructure\\Database\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T14:27:04.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Infrastructure\\Database\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "PropostaService.Infrastructure\\Database\\DbInitializer.cs",
-              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Infrastructure\\Database\\DbInitializer.cs",
-              "RelativeToolTip": "PropostaService.Infrastructure\\Database\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T14:27:29.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ContratacaoService.Worker",
-              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Worker\\ContratacaoService.Worker.csproj",
-              "RelativeDocumentMoniker": "ContratacaoService.Worker\\ContratacaoService.Worker.csproj",
-              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Worker\\ContratacaoService.Worker.csproj",
-              "RelativeToolTip": "ContratacaoService.Worker\\ContratacaoService.Worker.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-30T14:28:12.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Worker\\appsettings.json",
-              "RelativeDocumentMoniker": "ContratacaoService.Worker\\appsettings.json",
-              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Worker\\appsettings.json",
-              "RelativeToolTip": "ContratacaoService.Worker\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-30T14:28:26.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Worker\\Program.cs",
-              "RelativeDocumentMoniker": "ContratacaoService.Worker\\Program.cs",
-              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Worker\\Program.cs",
-              "RelativeToolTip": "ContratacaoService.Worker\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Title": "PropostasController.cs",
+              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Api\\Controllers\\PropostasController.cs",
+              "RelativeDocumentMoniker": "PropostaService.Api\\Controllers\\PropostasController.cs",
+              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Api\\Controllers\\PropostasController.cs",
+              "RelativeToolTip": "PropostaService.Api\\Controllers\\PropostasController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T14:28:28.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Worker\\Worker.cs",
-              "RelativeDocumentMoniker": "ContratacaoService.Worker\\Worker.cs",
-              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Worker\\Worker.cs",
-              "RelativeToolTip": "ContratacaoService.Worker\\Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T14:37:03.146Z",
+              "WhenOpened": "2026-01-30T17:44:11.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RabbitMqConsumer.cs",
-              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Worker\\Worker\\RabbitMqConsumer.cs",
-              "RelativeDocumentMoniker": "ContratacaoService.Worker\\Worker\\RabbitMqConsumer.cs",
-              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Worker\\Worker\\RabbitMqConsumer.cs*",
-              "RelativeToolTip": "ContratacaoService.Worker\\Worker\\RabbitMqConsumer.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PropostaServiceApp.cs",
+              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Application\\Services\\PropostaServiceApp.cs",
+              "RelativeDocumentMoniker": "PropostaService.Application\\Services\\PropostaServiceApp.cs",
+              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Application\\Services\\PropostaServiceApp.cs",
+              "RelativeToolTip": "PropostaService.Application\\Services\\PropostaServiceApp.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwF8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T14:41:48.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Api\\Program.cs",
-              "RelativeDocumentMoniker": "ContratacaoService.Api\\Program.cs",
-              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\ContratacaoService.Api\\Program.cs",
-              "RelativeToolTip": "ContratacaoService.Api\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T14:43:11.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Api\\Program.cs",
-              "RelativeDocumentMoniker": "PropostaService.Api\\Program.cs",
-              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Api\\Program.cs",
-              "RelativeToolTip": "PropostaService.Api\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T14:50:06.897Z",
+              "WhenOpened": "2026-01-30T17:44:50.576Z",
               "EditorCaption": ""
             }
           ]

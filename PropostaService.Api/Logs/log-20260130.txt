@@ -456,3 +456,287 @@ ORDER BY [MigrationId];
 2026-01-30 10:27:20.311 -03:00 [INF] Application started. Press Ctrl+C to shut down.
 2026-01-30 10:27:20.313 -03:00 [INF] Hosting environment: Development
 2026-01-30 10:27:20.315 -03:00 [INF] Content root path: E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api
+2026-01-30 13:10:50.674 -03:00 [INF] Executed DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:10:50.887 -03:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:10:50.907 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:10:50.929 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:10:50.973 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:10:51.017 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 13:10:51.071 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:10:51.086 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:10:51.097 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:10:51.107 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:10:51.123 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:10:51.132 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 13:10:51.915 -03:00 [INF] Now listening on: http://0.0.0.0:80
+2026-01-30 13:10:52.756 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-30 13:10:52.761 -03:00 [INF] Hosting environment: Development
+2026-01-30 13:10:52.779 -03:00 [INF] Content root path: E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api
+2026-01-30 13:13:08.489 -03:00 [INF] Executed DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:13:08.712 -03:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:13:08.740 -03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:13:08.750 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:13:08.808 -03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:13:08.887 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 13:13:08.997 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:13:09.017 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:13:09.030 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:13:09.045 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:13:09.067 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:13:09.077 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 13:13:09.975 -03:00 [INF] Now listening on: http://0.0.0.0:80
+2026-01-30 13:13:10.428 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-30 13:13:10.440 -03:00 [INF] Hosting environment: Development
+2026-01-30 13:13:10.446 -03:00 [INF] Content root path: E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api
+2026-01-30 13:33:39.726 -03:00 [INF] Executed DbCommand (796ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [PropostasDb];
+2026-01-30 13:33:39.972 -03:00 [INF] Executed DbCommand (152ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [PropostasDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2026-01-30 13:33:40.039 -03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:33:40.186 -03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2026-01-30 13:33:40.194 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:33:40.249 -03:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:33:40.264 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:33:40.305 -03:00 [INF] Applying migration '20260129195938_InitialCreate'.
+2026-01-30 13:33:40.367 -03:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Propostas] (
+    [Id] uniqueidentifier NOT NULL,
+    [NomeCliente] nvarchar(150) NOT NULL,
+    [TipoSeguro] nvarchar(100) NOT NULL,
+    [Valor] decimal(18,2) NOT NULL,
+    [Status] nvarchar(max) NOT NULL DEFAULT N'EmAnalise',
+    [CriadoEm] datetime2 NOT NULL DEFAULT (GETUTCDATE()),
+    CONSTRAINT [PK_Propostas] PRIMARY KEY ([Id])
+);
+2026-01-30 13:33:40.383 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260129195938_InitialCreate', N'8.0.23');
+2026-01-30 13:33:40.405 -03:00 [INF] Applying migration '20260130102255_AddIdempotencyKeys'.
+2026-01-30 13:33:40.426 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [IdempotencyKeys] (
+    [Id] uniqueidentifier NOT NULL,
+    [Key] nvarchar(150) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL DEFAULT (GETUTCDATE()),
+    [PropostaId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_IdempotencyKeys] PRIMARY KEY ([Id])
+);
+2026-01-30 13:33:40.441 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_IdempotencyKeys_Key] ON [IdempotencyKeys] ([Key]);
+2026-01-30 13:33:40.446 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260130102255_AddIdempotencyKeys', N'8.0.23');
+2026-01-30 13:33:40.515 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:33:40.569 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:33:40.578 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:33:40.585 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:33:40.599 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:33:40.612 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 13:33:41.337 -03:00 [INF] Now listening on: https://localhost:7116
+2026-01-30 13:33:41.342 -03:00 [INF] Now listening on: http://localhost:5204
+2026-01-30 13:33:42.489 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-30 13:33:42.492 -03:00 [INF] Hosting environment: Development
+2026-01-30 13:33:42.495 -03:00 [INF] Content root path: E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api
+2026-01-30 13:33:43.624 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - null null
+2026-01-30 13:33:43.885 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - 200 null text/html;charset=utf-8 283.9667ms
+2026-01-30 13:33:43.908 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-30 13:33:43.944 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 35.0606ms
+2026-01-30 13:33:44.208 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - null null
+2026-01-30 13:33:44.229 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.8717ms
+2026-01-30 13:39:56.088 -03:00 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:39:56.269 -03:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:39:56.287 -03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:39:56.298 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:39:56.340 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:39:56.389 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 13:39:56.443 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:39:56.455 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:39:56.461 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:39:56.466 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:39:56.479 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:39:56.488 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 13:39:57.320 -03:00 [INF] Now listening on: https://localhost:7116
+2026-01-30 13:39:57.323 -03:00 [INF] Now listening on: http://localhost:5204
+2026-01-30 13:39:57.874 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-30 13:39:57.877 -03:00 [INF] Hosting environment: Development
+2026-01-30 13:39:57.879 -03:00 [INF] Content root path: E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api
+2026-01-30 13:40:00.225 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - null null
+2026-01-30 13:40:00.607 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - 200 null text/html;charset=utf-8 412.1968ms
+2026-01-30 13:40:00.623 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-30 13:40:00.660 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 36.8743ms
+2026-01-30 13:40:01.009 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - null null
+2026-01-30 13:40:01.083 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 81.5263ms
+2026-01-30 13:42:36.056 -03:00 [INF] Executed DbCommand (507ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [PropostasDb];
+2026-01-30 13:42:36.791 -03:00 [INF] Executed DbCommand (132ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [PropostasDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2026-01-30 13:42:36.845 -03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:42:36.984 -03:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2026-01-30 13:42:36.995 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:42:37.052 -03:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:42:37.066 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:42:37.105 -03:00 [INF] Applying migration '20260129195938_InitialCreate'.
+2026-01-30 13:42:37.150 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Propostas] (
+    [Id] uniqueidentifier NOT NULL,
+    [NomeCliente] nvarchar(150) NOT NULL,
+    [TipoSeguro] nvarchar(100) NOT NULL,
+    [Valor] decimal(18,2) NOT NULL,
+    [Status] nvarchar(max) NOT NULL DEFAULT N'EmAnalise',
+    [CriadoEm] datetime2 NOT NULL DEFAULT (GETUTCDATE()),
+    CONSTRAINT [PK_Propostas] PRIMARY KEY ([Id])
+);
+2026-01-30 13:42:37.159 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260129195938_InitialCreate', N'8.0.23');
+2026-01-30 13:42:37.175 -03:00 [INF] Applying migration '20260130102255_AddIdempotencyKeys'.
+2026-01-30 13:42:37.195 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [IdempotencyKeys] (
+    [Id] uniqueidentifier NOT NULL,
+    [Key] nvarchar(150) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL DEFAULT (GETUTCDATE()),
+    [PropostaId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_IdempotencyKeys] PRIMARY KEY ([Id])
+);
+2026-01-30 13:42:37.201 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_IdempotencyKeys_Key] ON [IdempotencyKeys] ([Key]);
+2026-01-30 13:42:37.208 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260130102255_AddIdempotencyKeys', N'8.0.23');
+2026-01-30 13:42:37.280 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:42:37.290 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:42:37.298 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:42:37.305 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:42:37.317 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:42:37.330 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 13:42:38.020 -03:00 [INF] Now listening on: https://localhost:7116
+2026-01-30 13:42:38.024 -03:00 [INF] Now listening on: http://localhost:5204
+2026-01-30 13:42:38.274 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-30 13:42:38.315 -03:00 [INF] Hosting environment: Development
+2026-01-30 13:42:38.332 -03:00 [INF] Content root path: E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api
+2026-01-30 13:42:39.301 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - null null
+2026-01-30 13:42:39.643 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - 200 null text/html;charset=utf-8 352.5076ms
+2026-01-30 13:42:39.674 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-30 13:42:39.711 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 37.6423ms
+2026-01-30 13:42:39.947 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - null null
+2026-01-30 13:42:39.970 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.6539ms
+2026-01-30 13:51:25.666 -03:00 [INF] Executed DbCommand (93ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:51:26.225 -03:00 [INF] Executed DbCommand (297ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:51:26.357 -03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:51:26.460 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:51:26.522 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:51:26.602 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 13:51:26.684 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:51:26.698 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:51:26.709 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-01-30 13:51:26.716 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-01-30 13:51:26.729 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-01-30 13:51:26.738 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-01-30 13:51:27.412 -03:00 [INF] Now listening on: https://localhost:7116
+2026-01-30 13:51:27.415 -03:00 [INF] Now listening on: http://localhost:5204
+2026-01-30 13:51:28.029 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-30 13:51:28.031 -03:00 [INF] Hosting environment: Development
+2026-01-30 13:51:28.034 -03:00 [INF] Content root path: E:\REINALDO.DEV (C#)\PropostaSeguro\PropostaService.Api
+2026-01-30 13:51:28.973 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - null null
+2026-01-30 13:51:29.319 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - 200 null text/html;charset=utf-8 375.7365ms
+2026-01-30 13:51:29.368 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-30 13:51:29.393 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 16523 application/javascript; charset=utf-8 25.676ms
+2026-01-30 13:51:29.636 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - null null
+2026-01-30 13:51:29.652 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.6433ms

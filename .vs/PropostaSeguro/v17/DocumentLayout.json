@@ -1,19 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1E401A-7755-461D-8FE4-1BA9D4B09F8D}|PropostaService.Application\\PropostaService.Application.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\propostaservice.application\\services\\propostaserviceapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1E401A-7755-461D-8FE4-1BA9D4B09F8D}|PropostaService.Application\\PropostaService.Application.csproj|solutionrelative:propostaservice.application\\services\\propostaserviceapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371D1193-AEC0-4980-A444-2CC6B867E697}|PropostaService.Api\\PropostaService.Api.csproj|e:\\reinaldo.dev (c#)\\propostaseguro\\propostaservice.api\\controllers\\propostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371D1193-AEC0-4980-A444-2CC6B867E697}|PropostaService.Api\\PropostaService.Api.csproj|solutionrelative:propostaservice.api\\controllers\\propostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 189,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 265,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PropostasController.cs",
+              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Api\\Controllers\\PropostasController.cs",
+              "RelativeDocumentMoniker": "PropostaService.Api\\Controllers\\PropostasController.cs",
+              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Api\\Controllers\\PropostasController.cs",
+              "RelativeToolTip": "PropostaService.Api\\Controllers\\PropostasController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T17:44:11.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropostaServiceApp.cs",
+              "DocumentMoniker": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Application\\Services\\PropostaServiceApp.cs",
+              "RelativeDocumentMoniker": "PropostaService.Application\\Services\\PropostaServiceApp.cs",
+              "ToolTip": "E:\\REINALDO.DEV (C#)\\PropostaSeguro\\PropostaService.Application\\Services\\PropostaServiceApp.cs",
+              "RelativeToolTip": "PropostaService.Application\\Services\\PropostaServiceApp.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwF8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T17:44:50.576Z",
+              "EditorCaption": ""
             }
           ]
         }

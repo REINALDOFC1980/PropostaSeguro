@@ -5,7 +5,8 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+// Permite que o container aceite requisições externas
+builder.WebHost.UseUrls("http://0.0.0.0:80");
 
 
 // Controllers
@@ -26,12 +27,12 @@ var app = builder.Build();
 
 await DbInitializer.InitializeAsync(app.Services);
 
-// Swagger
-if (app.Environment.IsDevelopment())
+// Swagger sempre habilitado no container
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "PropostaService API V1");
+});
 
 app.UseHttpsRedirection();
 
