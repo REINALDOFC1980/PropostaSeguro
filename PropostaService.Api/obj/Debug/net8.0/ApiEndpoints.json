@@ -40,5 +40,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PropostaService.Api.Controllers.PropostasController",
+    "Method": "AlterarStatus",
+    "RelativePath": "api/Propostas/{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "PropostaService.Api.DTO.AlterarStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

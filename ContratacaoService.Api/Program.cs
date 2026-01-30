@@ -31,7 +31,7 @@ await DbInitializer.InitializeAsync(app.Services);
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "PropostaService API V1");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "ContratacaoService API V1");
 });
 
 app.UseHttpsRedirection();

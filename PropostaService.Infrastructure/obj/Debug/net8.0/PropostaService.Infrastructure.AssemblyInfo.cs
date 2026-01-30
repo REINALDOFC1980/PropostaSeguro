@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PropostaService.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58f0b7bd07bcd92c636fcbb822cc2b0338be9102")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42b74595239fe9b889bdff420b9451d6bdd0ee94")]
 [assembly: System.Reflection.AssemblyProductAttribute("PropostaService.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PropostaService.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

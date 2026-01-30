@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using ContratacaoService.Domain.Entities;
+using ContratacaoService.Infrastructure.Database;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RabbitMQ.Client;
@@ -45,19 +47,35 @@ namespace ContratacaoService.Worker
 
                     Console.WriteLine($"Mensagem recebida: {message}");
 
+                    // 1️⃣ Cria o escopo para pegar o DbContext
                     using var scope = _scopeFactory.CreateScope();
-                    // aqui você processa e salva a contratação
+                    var dbContext = scope.ServiceProvider.GetRequiredService<ContratacaoDbContext>();
 
+                    // 2️⃣ Converte a mensagem para o modelo
+                    // Supondo que a mensagem seja JSON
+                    var contratacao = System.Text.Json.JsonSerializer.Deserialize<ContratacaoModel>(message);
+
+                    if (contratacao != null)
+                    {
+                        // 3️⃣ Define valores adicionais, se necessário
+                        contratacao.Id = Guid.NewGuid();
+                        contratacao.CriadoEm = DateTime.UtcNow;
+
+                        // 4️⃣ Adiciona ao DbSet e salva no banco
+                        dbContext.Contratacoes.Add(contratacao);
+                        await dbContext.SaveChangesAsync();
+                    }
+
+                    // 5️⃣ Confirma entrega da mensagem
                     _channel.BasicAck(ea.DeliveryTag, false);
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine("Erro ao processar mensagem: " + ex.Message);
-                    _channel.BasicNack(ea.DeliveryTag, false, true);
+                    _channel.BasicNack(ea.DeliveryTag, false, true); // reenvia para a fila
                 }
             };
 
-          
             _channel.BasicConsume(queue: queueName, autoAck: false, consumer: consumer);
 
             await Task.Delay(Timeout.Infinite, stoppingToken);

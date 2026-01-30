@@ -68,10 +68,61 @@
           }
         }
       }
+    },
+    "/api/Propostas/{id}/status": {
+      "patch": {
+        "tags": [
+          "Propostas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlterarStatusRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlterarStatusRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlterarStatusRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
+      "AlterarStatusRequest": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "$ref": "#/components/schemas/StatusProposta"
+          }
+        },
+        "additionalProperties": false
+      },
       "CriarPropostaRequest": {
         "type": "object",
         "properties": {
@@ -89,6 +140,14 @@
           }
         },
         "additionalProperties": false
+      },
+      "StatusProposta": {
+        "enum": [
+          "EmAnalise",
+          "Aprovada",
+          "Rejeitada"
+        ],
+        "type": "string"
       }
     }
   }

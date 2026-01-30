@@ -80,6 +80,7 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseMiddleware<IdempotencyMiddleware>();
 
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 app.MapControllers();

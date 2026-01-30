@@ -4,5 +4,10 @@
         <name>PropostaService.Api</name>
     </assembly>
     <members>
+        <member name="M:PropostaService.Api.Controllers.PropostasController.AlterarStatus(System.Guid,PropostaService.Api.DTO.AlterarStatusRequest)">
+            <summary>
+            Altera o status de uma proposta
+            </summary>
+        </member>
     </members>
 </doc>
