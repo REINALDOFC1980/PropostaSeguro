@@ -39,7 +39,7 @@ O sistema consiste em três serviços principais:
 ## Pré-requisitos
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
-- [.NET SDK 6 ou 7](https://dotnet.microsoft.com/download)
+- [.NET SDK 8](https://dotnet.microsoft.com/download)
 - SQL Server (local ou container)
 - Visual Studio 2022 ou VS Code
 
